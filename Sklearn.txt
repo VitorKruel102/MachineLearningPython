@@ -1,0 +1,78 @@
+# Padronização:
+from sklern.progressing import StandardScaler 
+--> Realiza a Padronização das variáveis categoricas ordinais
+    * Deixa na mesma escala;
+    * Média = 0;
+    * Dp = 1;
+
+    previsores_esc = StandardScaler().fit_transform(previsores) # Padronização
+    previsores_esc
+
+
+# Normalização:
+from sklern.progressing import MinMaxScaler 
+--> Realiza a Normalização das variáveis categoricas ordinais
+    * Deixa na mesma escala;
+    * Entre 0 e 1;
+    * Ou entre -1 e 1;
+
+    previsores_esc = MinMaxScaler().fit_transform(previsores) # Padronização
+    previsores_esc
+
+from sklern.progressing import LabelEncoder
+--> Transforma os variáveis categoricas nominais em ordinais;
+    previsores2 = df_heart.iloc[:, 0:11].values
+    previsores2[:,1] = LabelEncoder().fit_transform(previsores2[:,1])
+    
+
+from sklern.progressing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+--> Basicamente elimina os "pesos" das variáveis categoricas ordinais que o algoritmo pode 
+    considerar.
+    * A = 0
+    * B = 1
+    * C = 2
+    * D = 3
+
+    A B C D 
+    1 0 0 0 
+    0 1 0 0 
+    0 0 1 0 
+    0 0 0 1 
+
+    previsores3 = ColumnTransformer(
+        transformers=[
+            ('OneHot', OneHotEncoder(), [1, 2, 6, 8, 10])
+        ],
+        remainder='passthrough'
+    ).fit_transform(previsores2)
+
+    previsores3.shape
+
+from sklern.decomposition import PCA
+--> Objetivo é selecionar os melhores componentes(atributos) 
+    para treinamento do algoritmo, através da análise de 
+    correlações entre as variáveis
+
+    pca = PCA(n_components=4)
+    previsores_pca = pca.fit_transform(previsores2)
+    previsores_pca
+    pca.explained_variance_ratio_
+
+from sklearn.decomposition import KernelPCA
+--> É um algoritmo de aprendizagem não supervisionada;
+    Aplica-se também em dados linearmente não separáveis.
+
+    kpca = KernelPCA(n_components=4, kernel='rbf')
+    previsores_kernel = kpca.fit_transform(previsores2)
+    previsores_kernel
+
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+--> Análise do Discriminante Linear (LDA: Linear Discriminant Analysis)
+    Algoritmo de aprendizagem supervisionada, pois utiliza a classe como referência para seleção;
+    Aplicado em situações com muitos atributos previsore e também com o atributo ALVO COM 
+    MUITAS CLASSES;
+
+
+    lda = LinearDiscriminantAnalysis(n_components=1)    
+    previsores_lda = lda.fit_transform(previsores2, alvo)
