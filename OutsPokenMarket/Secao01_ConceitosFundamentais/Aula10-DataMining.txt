@@ -1,0 +1,57 @@
+==================================================
+
+	    	Mineração de Dados 
+
+==================================================
+Data Mining --> Knowledge Discovery in Database(KDD)
+
+Projeto de Machine Leaning:
+	|
+	|-----> Dados dispóniveis;
+	|
+	|-----> Seleção dos dados relevantes;
+	|
+	|-----> Pré-Processamento(Entendendo os dados selecionados);
+	|
+	|-----> Transformação;
+	|
+	|-----> Data Mining:		|--> Classificação;
+	|		|		|
+	|		|--> Preditivo ----> Predição;
+	|		|		|
+	|		|		|--> Séries Temporais;
+	|		|
+	|		|
+	|		|		|--> Assiciação		
+	|		|--> Discritivo ---> Clustering;
+	|				|--> Sumarização;
+	|
+	|------> Avaliação;
+	|
+	|------> Conhecimento Útil.
+
+--------------------------
+| Grupos de Data Mining: |
+--------------------------
+
+|------> Classificação: Seu objetivo com este modelo identificar uma classe. Ou seja, 
+|	       		o modelo quer identificar em uma imagem se algo é um carro, 
+|	       		uma pessoa ou um cachorro.
+|
+|------> Predição: Nesses modelos você vai utilizar a variavel alvo do tipo númerica.
+|	  	   para determinar a probabilidade de algo ocorrer.
+|			|
+|			|---> Comprou ou Não.
+|			|---> Fraudulento ou Não.
+|			|---> Realizar o Pagamento ou Não.
+|
+|			Exemplos de Modelos: Regressão Linear, Regressão Logistica.
+|
+|
+|------> Séries Temporais: É uma sequência de eventos onde o evento 
+|			   de agora depende do eventos anteriores.
+|				|
+|				|--> Vendas de uma empresa;		
+|				|--> Desgastes de um maquina;
+|				|--> Mercado Financeiro.
+|
