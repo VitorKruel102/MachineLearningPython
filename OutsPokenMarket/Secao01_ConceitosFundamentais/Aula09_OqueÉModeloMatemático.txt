@@ -1,0 +1,25 @@
+====================================================
+
+	     O que é modelo matemático? 
+
+====================================================
+--> Representação aproximada da realidade.
+                       |	   |
+		       |	   |---> Evento --> Alvo
+		       |
+		       |--> Não acertam 100%.
+
+ 
+
+--> Papel fundamental para um Analista de Dados;
+
+-> Equeção da Reta (Regressão Linear):
+	
+	y(x) = a.x + b
+	|        |
+	|	 |--> Variaveis
+	|	
+	|--> Alvo
+
+	
+IMG: https://www.google.com/url?sa=i&url=https%3A%2F%2Fslideplayer.com.br%2Fslide%2F17546653%2F&psig=AOvVaw325GsTGP6reD7BiKAnfDRF&ust=1686752485873000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjy3ee4wP8CFQAAAAAdAAAAABAE
