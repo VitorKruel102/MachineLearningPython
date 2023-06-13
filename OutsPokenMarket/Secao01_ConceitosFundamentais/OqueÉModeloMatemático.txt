@@ -1,0 +1,14 @@
+====================================================
+
+	     O que é modelo matemático? 
+
+====================================================
+--> Representação aproximada da realidade.
+                       |	   |
+		       |	   |---> Evento --> Alvo
+		       |
+		       |--> Não acertam 100%.
+
+ 
+
+--> Papel fundamntal para um Analista de Dados;
