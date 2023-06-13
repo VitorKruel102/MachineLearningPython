@@ -55,3 +55,15 @@ Projeto de Machine Leaning:
 |				|--> Desgastes de um maquina;
 |				|--> Mercado Financeiro.
 |
+|------> Associação: O Modelo vai explicar o relacionamento entre objetos);
+|			|--> Recomentadações da Netflix por filmes que você ja assistiu;
+|			|--> Amazon por compras já realizadas.
+|
+|
+|------> Clustering: Seu objetivo é agrupar objetivos com base 
+|		     nas caracteristicas semelhantes.
+|
+|
+|
+|
+|------> Sumarização: Criar Relatórios, Dashboards ou descrições dos dados.
