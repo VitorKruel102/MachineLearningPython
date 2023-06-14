@@ -1,0 +1,91 @@
+================================================================
+
+	    	Conceitos Básicos de Estatística
+
+================================================================
+
+-----
+| 1 |   Média ---> μ =   x1 + x2 + x3 + ... + Xn
+-----		       --------------------------	
+			          n
+
+-----
+| 2 |   Mediana ---> m =  [1, 2, 3, 4, 5] (Precisa ordenar a lista)
+-----		       		 |
+				 |---> Mediana (Número central)
+
+
+-----
+| 3 |   Moda ---> M =  [3, 2, 3, 4, 5] 
+-----		       	|     |
+			-------	 
+			   |
+   			   |---> Moda (Número que se repete mais vezes)
+
+
+
+-----								 ---|
+| 4 |   Desvio Padrão ---> σ =    (x1 - μ)² + ... + (Xn - μ)²       |
+-----		       	       √ -----------------------------      |------> Nosso objetivo é saber quão distantes esperamos
+				            n - 1                   |                que um valor esteja da média
+								 ---|
+
+-----								 
+| 5 |   Resumo dos 5 números: 
+-----           |
+		|--> Mínima
+		|
+		|--> 1°Quartil(25%)  --> Mediana da primeira metade
+		|
+		|--> Mediana
+		|
+		|--> 3°Quartil(75%)  --> Mediana da segunda metade
+		|
+		|--> Máxima
+
+		IQR(Intervalo inter-quartil) = Q3 - Q1
+
+
+-----								 
+| 6 |   Distribuição --> Nosso objetivo é mostrar o quão frequente os valores 
+----- 
+
+
+-----								 
+| 7 |   OutLiers --> São valores foras do intervalo de valores mais comuns. 
+-----	   |
+	   |--- < Q1 - (1,5 * IQR) 
+	   |		
+	   |          OU
+	   |
+	   |--- > Q3 + (1,5 * IQR)
+
+
+
+-----								 
+| 8 |   Logarítmos --> Utilizado para a mudança de escalas
+-----
+
+	Log(1) = 0		Log(10_000) = 4
+	Log(10) = 1		Log(100_000) = 5
+	Log(100) = 2            Log(1_000_000) = 6
+	Log(1_000) = 3
+
+
+
+-----								 
+| 9 |   Distribuição Normal --> σ , μ
+-----
+	68% dos dados estão em μ +- 1σ
+	95% dos dados estão em μ +- 2σ
+	97.7% dos dados estão em μ +- 3σ
+
+
+
+
+
+
+
+
+
+
