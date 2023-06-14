@@ -1,0 +1,22 @@
+===============================================
+
+	    	Criação do Alvo
+
+===============================================
+
+Um modelo matemático é uma aproximação da realidade(Alvo).
+		|
+		|
+		|
+		|---> Elementos X(Variaveis) explicam um elemento Y(Realidade)
+		     |					    	 	      |
+		     |--------------------------------------------------------|
+						|
+						|
+
+			      X ---> Modelo Preditivo (Previsão) ---> Y
+			      |					      |
+			      |                                       |
+			      |					      |
+ 		     Eventos a priori de Y		     Vai ou não acontecer
+		       (X Ocorreu antes)
