@@ -1,0 +1,61 @@
+=========================================================
+
+		Classificador Naive Bayes
+
+=========================================================
+|
+|-----> É um classificador probabilístico que é derivado do 
+	teorema de Bayes.  
+		|
+		|--> Modelo Supervisionado = Precisa de um alvo
+
+
+-----------------------------------
+|O que é um modelo probabilístico?|
+-----------------------------------
+
+Dados X e y, o modelo irá calcular a probabilidade da
+ocorrencia de Y.
+
+	1 - Alta ou Baixa?
+	2 - Comprar ou Não?
+	3 - Oferecer o produto ou não?
+
+---------------------------
+|Classificador Naive Bayes|
+---------------------------
+	
+	P(y|x) = Probabidade de Y ocorrer dado X.
+	   |
+	   |---> Para cada X teremos uma probabilidade calculada para cada Y
+
+	
+	TEOREMA DE BAYES = Descreve a probabilidade de um evento dado um conhecimento a priori(Já aconteceu)
+		|
+		|
+		|--> Inferência do evento futuro.
+				
+		P(y|x) =   P(x|Y) * P(Y) --------|	Y Independente de X
+			  ---------------	 |--> 
+				P(x) ------------|	X Indeoendente de Y
+
+
+		P(a|b) =   P(a|b) * P(b) --------|	a Independente de b
+			  ---------------	 |--> 
+				P(a) ------------|	b Indeoendente de a
+
+
+-------------------------
+|INFORMAÇÕES IMPORTANTES|
+-------------------------
+
+   -----	
+   | 1 |    P(Y) = Σ(P(y|xi)P(xi)
+   -----
+
+   -----	
+   | 2 |    As variáveis precisam estar em uma distribuição normal.
+   -----
+
+
+

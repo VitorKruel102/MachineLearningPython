@@ -55,7 +55,7 @@ Projeto de Machine Leaning:
 |				|--> Desgastes de um maquina;
 |				|--> Mercado Financeiro.
 |
-|------> Associação: O Modelo vai explicar o relacionamento entre objetos);
+|------> Associação: O Modelo vai explicar o relacionamento entre objetos;
 |			|--> Recomentadações da Netflix por filmes que você ja assistiu;
 |			|--> Amazon por compras já realizadas.
 |
