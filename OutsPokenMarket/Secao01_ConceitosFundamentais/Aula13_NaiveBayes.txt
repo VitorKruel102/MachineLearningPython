@@ -40,9 +40,9 @@ ocorrencia de Y.
 				P(x) ------------|	X Indeoendente de Y
 
 
-		P(a|b) =   P(a|b) * P(b) --------|	a Independente de b
+		P(a|b) =   P(b|a) * P(a) --------|	a Independente de b
 			  ---------------	 |--> 
-				P(a) ------------|	b Indeoendente de a
+				P(b) ------------|	b Indeoendente de a
 
 
 -------------------------

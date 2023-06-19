@@ -22,7 +22,7 @@ Projeto de Machine Leaning:
 	|		|		|--> Séries Temporais;
 	|		|
 	|		|
-	|		|		|--> Assiciação		
+	|		|		|--> Associação;	
 	|		|--> Discritivo ---> Clustering;
 	|				|--> Sumarização;
 	|
